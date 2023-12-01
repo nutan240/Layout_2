@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/* navbar start */
+.navbar{
+    width: 100vw;
+    background-color: black;
+    /* height: 50px; */
+    font-family: "Gill Sans", sans-serif;
+}
+.nav_list{
+list-style-type: none; 
+   display: grid;
+  grid-template-columns: 100px 51px 68px 68px;
+    gap: 10px;
+    padding: 1% 6.5%;
+    align-items: end;
+}
+.nav_list_item{
+    color: aliceblue;
+    list-style-type: none;
+    font-size: 16px;
+    list-style-type: none;
+}
+.nav_list_item1{
+    font-size: 23px;
+}
+.nav_link{
+    text-decoration: none;
+    color: rgb(115, 114, 114);
+
+}
+/* navbar end */
+
+/* hero start*/
+.hero{
+    margin: 5% 6.5% 2.4% 6.5%;
+    background-color:#eeeeee ;
+    overflow-x: hidden;
+    font-family: Georgia, Times, serif;
+    padding: 4% 4%;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+}
+.hero_para{
+    padding: 1.5% 0%;
+    font-size: 21px;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Noto Sans Pahawh Hmong', sans-serif;
+    color: #333333;
+}
+.hero_para1{
+    font-family: 'EB Garamond', serif;
+font-family: 'Noto Sans Pahawh Hmong', sans-serif;
+    font-size: 52px;
+}
+.hero_btn{
+    background-color: #428bca;
+    color: #dff0f0;
+    padding: 0.8% 1.2%;
+    border: 1px solid  #428bca;
+    border-radius: 5px;
+    font-size: 15px
+}
+/* hero end  */
+/* main start  */
+.main{
+    margin: 0% 6.5%;
+    border-bottom: 1px solid rgb(234, 230, 230) ;
+    border-top: 1px solid  rgb(234, 230, 230) ;
+}
+.main_head{
+    padding: 2% 0% 1% 0%;
+    font-size: 25px;
+    font-family: 'EB Garamond', serif;
+font-family: 'Noto Sans Pahawh Hmong', sans-serif;
+}
+.card{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    gap: 39px;
+    padding: 1.5% 0% 5.4% 0%;
+    grid-template-rows: 1.6fr;
+
+}
+.card_box{
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 3px;
+    padding-bottom: 2%;
+
+}
+.card_img{
+    height: 190px;
+    margin: 2% 2%;
+    background-color: #cccccc ;
+    justify-content: center;
+    align-items:center;
+    display: grid;
+    color: #939393;
+    font-size: 45px;
+font-family: 'Noto Sans Pahawh Hmong', sans-serif;
+font-weight: bold ;
+    font-family: 'EB Garamond', serif;
+}
+.info{
+    /* padding: 5% 15%; */
+    text-align: center;
+    padding-top: 13px;
+}
+.info_para{
+    font-size: 24px;
+    /* padding: 4px 22px; */
+    font-family: 'EB Garamond', serif;
+font-family: 'Noto Sans Pahawh Hmong', sans-serif;
+}
+.info_para1{
+    padding: 10px 5.5px;
+    font-size: 17px;
+    color: #666666;
+    font-family: 'EB Garamond', serif;
+font-family: 'Noto Sans Pahawh Hmong', sans-serif;
+}
+.info_btn{
+    margin: 2% 0.5% 2% 5%;
+    background-color:  #428bca;
+    padding: 3.4% 4.6%;
+    border: 1px solid  #428bca;
+    border-radius: 5px;
+    color:  #dff0f0;
+    font-size: 16px;
+    font-family: 'EB Garamond', serif;
+font-family: 'Noto Sans Pahawh Hmong', sans-serif;
+    
+}
+.info_btn1{
+    margin: 2% 2.5%;
+    background-color:  #f9fdfd;
+    padding: 3.4% 4.6%;
+    border: 1px solid  #e1e1e3;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'EB Garamond', serif;
+font-family: 'Noto Sans Pahawh Hmong', sans-serif;
+}
+/* main end  */
+
+/* footer start  */
+.footer{
+    margin: 4% 6.5%;
+    color: #666666;
+    font-size: 16px;
+    font-family: 'EB Garamond', serif;
+font-family: 'Noto Sans Pahawh Hmong', sans-serif;
+}
+
+/* responsive  */
+ @media(max-width:1430px){
+    .card{
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+gap: 10px;
+
+}
+.info_para1{
+    font-size: 18px;
+}
+.info_para{
+    font-size: 30px;
+}
+.info_btn{
+    padding: 3.4% 4.3%;
+}
+.info_btn1{
+    padding: 3.4% 4.3%;
+}
+} 
+
+@media(max-width:1106){
+    .info_para1{
+        font-size:18px ;
+    }
+}
+
+@media(max-width:1002px){
+    .card{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 18px;
+    }
+    .hero_para{
+        font-size: 21px;
+    }
+}
+@media(max-width:990px){
+.info{
+    padding: 20px 30px;
+}
+.info_para1{
+    font-size: 20px;
+}
+.info_para{
+    font-size: 34px;
+}
+}
+@media(max-width:788px){
+    .info_para{
+        font-size: 30px;
+    }
+
+    .info_para1{
+        font-size: 16px;
+    }
+}
+@media(max-width:738px){
+    .info_para{
+        font-size: 26px;
+    }   
+}
+@media(max-width:649px){
+    .info{
+        padding:  20px 20px;
+    }
+    .hero_para1{
+        font-size: 38px;
+    }
+    .hero_para{
+        font-size: 17px;
+    }
+    .hero_btn{
+        padding: 1.4% 1.8%;
+    }
+}
+
+@media(max-width:580px){
+    
+    .info {
+        padding: 20px 9px;
+    }
+} 
+@media(max-width:511px){
+    .info{
+        padding: 20px 5px;
+
+    }
+} 
+@media(max-width:486px){
+    .card{
+grid-template-columns: 1fr;
+grid-template-rows: 1fr;
+gap: 15px;
+    }
+   .info{
+    padding: 17px 13px;
+   }
+   .info_para1{
+    font-size: 22px;
+   }
+   .info_para{
+    font-size: 33px;
+   }
+ 
+}
+@media (max-width:360px){
+    .hero_para1{
+        font-size: 33px;
+    }
+    .info_para1{
+        font-size: 17px;
+    }
+    .info_para{
+        font-size: 27px;
+    }
+    .hero_para{
+        font-size: 16px;
+    }
+    .nav_list {
+    
+        padding: 4% 6.5%;
+        grid-template-columns: 35%;
+        justify-content: center;
+    }
+}
+
