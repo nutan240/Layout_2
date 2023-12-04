@@ -14,7 +14,7 @@
 .nav_list{
 list-style-type: none; 
    display: grid;
-  grid-template-columns: 100px 51px 68px 68px;
+  grid-template-columns: 84px 43px 61px 68px;
     gap: 10px;
     padding: 1% 6.5%;
     align-items: end;
@@ -26,7 +26,7 @@ list-style-type: none;
     list-style-type: none;
 }
 .nav_list_item1{
-    font-size: 23px;
+    font-size: 20px;
 }
 .nav_link{
     text-decoration: none;
@@ -104,6 +104,8 @@ font-family: 'Noto Sans Pahawh Hmong', sans-serif;
 font-family: 'Noto Sans Pahawh Hmong', sans-serif;
 font-weight: bold ;
     font-family: 'EB Garamond', serif;
+    font-family: 'Roboto', sans-serif;
+    
 }
 .info{
     /* padding: 5% 15%; */
@@ -168,7 +170,7 @@ gap: 10px;
     font-size: 18px;
 }
 .info_para{
-    font-size: 30px;
+    font-size: 16px;
 }
 .info_btn{
     padding: 3.4% 4.3%;
@@ -182,6 +184,10 @@ gap: 10px;
     .info_para1{
         font-size:18px ;
     }
+    .hero_para1{
+        font-size: 48px;
+    }
+    
 }
 
 @media(max-width:1002px){
@@ -191,7 +197,9 @@ gap: 10px;
         gap: 18px;
     }
     .hero_para{
-        font-size: 21px;
+        font-size: 19px;
+    }.info_para1{
+        font-size: 16px;
     }
 }
 @media(max-width:990px){
@@ -212,6 +220,9 @@ gap: 10px;
 
     .info_para1{
         font-size: 16px;
+    }
+    .hero_para1{
+    font-size: 46px;
     }
 }
 @media(max-width:738px){
@@ -256,12 +267,22 @@ gap: 15px;
     padding: 17px 13px;
    }
    .info_para1{
-    font-size: 22px;
+    font-size: 17px;
    }
    .info_para{
-    font-size: 33px;
+    font-size: 31px;
    }
- 
+   .nav_list{
+    padding: 3% 6.5%;
+   }
+   
+.info_btn{
+    padding: 2.3% 2.4%;
+}
+.info_btn1{
+    padding: 2.3% 2.4%;
+}
+
 }
 @media (max-width:360px){
     .hero_para1{
@@ -281,6 +302,7 @@ gap: 15px;
         padding: 4% 6.5%;
         grid-template-columns: 35%;
         justify-content: center;
+        text-align: center;
     }
 }
 
